@@ -7,7 +7,7 @@ signal coin_collected
 
 @export_subgroup("Properties")
 @export var movement_speed = 250
-@export var jump_strength = 7
+@export var jump_strength = 9
 
 var movement_velocity: Vector3
 var rotation_direction: float
@@ -110,7 +110,6 @@ func handle_controls(delta):
 			Audio.play("res://sounds/jump.ogg")
 		
 		if jump_double:
-			
 			gravity = -jump_strength
 			
 			jump_double = false

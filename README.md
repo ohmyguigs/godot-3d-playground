@@ -1,3 +1,7 @@
+# Disclaimer
+
+This is just a test repository for me to learn the engine, it was cloned from [Kenney's starterkit](https://godotengine.org/asset-library/asset/2120)
+
 <p align="center"><img src="icon.png"/></p>
 
 # Starter Kit 3D Platformer
