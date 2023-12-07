@@ -102,6 +102,11 @@ func handle_controls(delta):
 	
 	movement_velocity = input * movement_speed * delta
 	
+	# Escaping
+	
+	if Input.is_action_just_pressed("escape"):
+		get_tree().change_scene_to_file("res://scenes/menu.tscn")
+	
 	# Jumping
 	
 	if Input.is_action_just_pressed("jump"):
